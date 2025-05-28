@@ -854,7 +854,7 @@ def main():
         logger.info("Starting data ingestion process...")
         
         # Connect to MongoDB
-    client = get_mongo_client()
+        client = get_mongo_client()
         if not client:
             logger.error("Failed to connect to MongoDB")
             return
